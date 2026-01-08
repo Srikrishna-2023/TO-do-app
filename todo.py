@@ -1,2 +1,2 @@
-tasks=[]
-print("to-do list manager")
+def complete_task(index):
+    tasks[index + 1]["done"] = True 
